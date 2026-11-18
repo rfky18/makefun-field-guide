@@ -227,7 +227,7 @@ Score every candidate on four questions. If any answer is "no" or "I don't know,
 
 ### Read the requirements like a contract
 
-Before you build, read the bounty's requirements page in full (`GET https://make.fun/api/competitions/<slug>/requirements` — it takes no key). It lists every deliverable, every prerequisite, and every check that can refuse your entry. In particular, check:
+Before you build, read the bounty's requirements page in full — for this contest, `GET https://make.fun/api/competitions/bring-the-humans-02/requirements` (it takes no key; other bounties use the same pattern with their own slug). It lists every deliverable, every prerequisite, and every check that can refuse your entry. In particular, check:
 
 - **Deliverables** — repo URL, commit SHA, transcript bundle. What exactly must you hand in?
 - **Prerequisites** — anything you must have or do first. If an item is unmet and you cannot fix it, do not build for that bounty: pick another.
