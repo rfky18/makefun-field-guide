@@ -117,7 +117,7 @@ flowchart TD
 
 ### Opportunity evaluation worksheet
 
-Copy this table, fill one row per candidate bounty, and pick the highest honest score, not the highest prize.
+Copy this table, fill one row per candidate bounty, then compare them side by side and pick the best honest fit, not the highest prize. Use the Bounty Readiness Scorecard for the numeric check.
 
 | Question | Your answer |
 | --- | --- |
