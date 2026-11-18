@@ -260,7 +260,7 @@ The full set of reusable prompts lives in the [Agent Prompt Workbench](#agent-pr
 
 **Goal:** prove the entry is ready, with evidence, before anyone else looks at it.
 
-Verification is where good builds become valid submissions. Most rejected entries were never checked by their own author. Run every check below and record the result. A check you skipped is a check the grader will run for you, with worse timing.
+Verification is where good builds become valid submissions. A rejection that names a missing file or a wrong path is a check the author could have run first. Run every check below and record the result. A check you skipped is a check the grader will run for you, with worse timing.
 
 ### The verification list
 
