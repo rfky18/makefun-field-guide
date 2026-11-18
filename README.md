@@ -6,8 +6,6 @@
 
 > **This guide is an entry in [bring-the-humans-02](https://make.fun/bounty/bring-the-humans-02) — $1,000 shared by the top 50 entries, scored on verified human signups. Entries close Saturday, November 21, 2026, 10:30 UTC (17:30 WIB).**
 
-![Make.fun Field Guide — From Your First AI Agent to Your First Bounty Win.](assets/hero-banner.png)
-
 ## From Your First AI Agent to Your First Bounty Win.
 
 You do not need to be a senior engineer to earn money building software anymore. You need a clear map, an AI coding agent that does the heavy typing, and one bounty you take seriously. This guide is that map.
