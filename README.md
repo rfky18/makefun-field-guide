@@ -18,6 +18,7 @@ This repository is a practical field manual. It shows you how to discover coding
 
 - [How to Use This Workshop](#how-to-use-this-workshop)
 - [How to Read This Guide](#how-to-read-this-guide)
+- [Getting Started on make.fun](#getting-started-on-makefun)
 - [Station 01 SCOUT](#station-01-scout)
 - [Station 02 SPEC](#station-02-spec)
 - [Station 03 BUILD](#station-03-build)
@@ -66,6 +67,50 @@ Every claim in this guide carries one of three labels, so you always know what k
 - **Our recommendation.** The author's judgement about the better way to do something, based on experience with these competitions. You may disagree. Example: preferring a smaller first bounty over a large one.
 
 Two more habits will save you more time than any tool in this guide. First, read the whole bounty page before you write a line of code. Second, never trust a claim about a reward, a deadline, or a rule that you have not seen on the live bounty page or in the official kit. Screenshots and second-hand summaries go stale; the live page is the source of truth.
+
+## Getting Started on make.fun
+
+If you have never used make.fun, do these seven steps before you pick a bounty. They take about twenty minutes and they remove the most common reason entries get rejected: an account that was never set up properly.
+
+**1. Create your make.fun account.**
+
+**Official fact.** Sign in at <https://make.fun>. The platform offers Sign in with Solana, and, where the site offers them, GitHub, Google, Apple, or Discord. Your Solana keypair is both your account and your payout wallet.
+
+You can also start from my referral link, <https://make.fun/r/2pd6m625> — it takes you to the same sign-up page; the full disclosure is in the opening of this guide.
+
+**General advice.** Use a wallet and an email you control long-term. Prizes are paid to the wallet on your account, and support questions go to the email on it.
+
+**2. Link your GitHub account.**
+
+**Official fact.** While signed in on the site, link your GitHub account in your profile. This is not optional: an entry must come from a public GitHub repository owned by the GitHub account linked to your make.fun account. An unlinked or wrong account means the platform cannot accept your entry, however good the work is.
+
+**General advice.** Link the account before you start building, not at submission time. If you use more than one GitHub account, double-check which one is linked.
+
+**3. Link your Solana wallet for payouts.**
+
+**Official fact.** Rewards are claimed in USDC on Solana, to your own wallet. After a competition ends and results are awarded, claim your reward inside its claim window — at least seven days from the award. An unclaimed reward expires.
+
+**Our recommendation.** Confirm the linked wallet address matches the one you actually control before you submit anything. Fixing it after a win costs more time than checking it now.
+
+**4. Browse bounties and pick one.**
+
+Open <https://make.fun> and read the open list. Station 01 teaches you how to compare them; for now, pick one that matches a skill you already have and a deadline you can realistically meet. Then read its bounty page end to end, and read its machine-readable requirements at `https://make.fun/api/competitions/<slug>/requirements` — the requirements are the contract the graders check.
+
+**5. Download the competition kit and read the official agent instructions.**
+
+**Official fact.** Every competition ships a starter kit with its rules, the official CLI, and the skill file. Download it from the bounty page, and read <https://make.fun/skill.md> before you build. The skill file is the platform's own instructions for agents: submission commands, transcript rules, and the checks every entry must pass.
+
+**General advice.** Do not build from memory of a previous competition. Kits and rules change between competitions; the kit for the bounty you entered is the only one that counts.
+
+**6. Build with an AI agent.**
+
+This is Station 03. You direct the agent, it writes the code, and you review and test each step. If you have never worked with an agent before, the Station 03 prompts are written so you can copy them and adapt them.
+
+**7. Submit, track your status, and claim.**
+
+**Official fact.** Submit through the kit CLI with a public repository URL, the exact 40-character commit SHA, a genuine transcript bundle of your agent sessions, and a signed entry message. The platform then moves your entry through: Open → Submitted → Checked → Scored → Challenge → Paid. Station 05 walks through the commands; Station 06 explains what the provisional and final rankings mean and how to claim.
+
+**Our recommendation.** Submit early enough to fix a failed check. A submission rejected for a missing file or a bad transcript is fixable — a submission made five minutes before the deadline is not.
 
 ## Station 01 SCOUT
 
