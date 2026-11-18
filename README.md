@@ -10,9 +10,7 @@ AI can write the code. But choosing the right opportunity, understanding the rul
 
 This repository is a practical field manual. It shows you how to discover coding opportunities, understand technical requirements, build with AI agents, validate your work, and submit professional bounty entries. It is a workshop, not a promise of income. Rewards go only to entries that place in the positions a bounty lists, and most entries earn nothing. What this guide gives you is a repeatable process, so every entry you submit is a genuine attempt instead of a guess.
 
-> **Start here:** <https://make.fun/r/2pd6m625> — referral code `2pd6m625`.
->
-> Disclosure: this is my referral link. make.fun may reward me when eligible referred users participate. It costs you nothing extra, and using it does not change your chances in any competition. You can also visit make.fun directly without a referral link.
+**Start here:** <https://make.fun/r/2pd6m625> — referral code `2pd6m625`. Disclosure: this is my referral link. make.fun may reward me when eligible referred users participate. It costs you nothing extra, and using it does not change your chances in any competition. You can also visit make.fun directly without a referral link.
 
 ## Contents
 
@@ -39,14 +37,12 @@ This repository is a practical field manual. It shows you how to discover coding
 
 This guide is built as six stations. Work through them in order the first time. After that, return to whichever station matches the step you are on.
 
-| Station | Question it answers | Output you should have |
-| --- | --- | --- |
-| 01 SCOUT | Which bounty is worth my time? | One chosen bounty and a filled evaluation worksheet |
-| 02 SPEC | What exactly must I deliver? | A task plan derived from the real requirements |
-| 03 BUILD | How do I get an AI agent to build it well? | Working code, reviewed and tested task by task |
-| 04 VERIFY | Is my entry actually ready? | A completed pre-submission audit |
-| 05 SHIP | How do I submit without breaking the rules? | A valid submitted entry and a known status |
-| 06 IMPROVE | What do I do with the result? | A next step, whether you placed or not |
+- **01 SCOUT** — Which bounty is worth my time? Output: one chosen bounty and a filled evaluation worksheet.
+- **02 SPEC** — What exactly must I deliver? Output: a task plan derived from the real requirements.
+- **03 BUILD** — How do I get an AI agent to build it well? Output: working code, reviewed and tested task by task.
+- **04 VERIFY** — Is my entry actually ready? Output: a completed pre-submission audit.
+- **05 SHIP** — How do I submit without breaking the rules? Output: a valid submitted entry and a known status.
+- **06 IMPROVE** — What do I do with the result? Output: a next step, whether you placed or not.
 
 **Who this is for.** Builders who can use an AI coding agent but have never entered a coding competition, and builders who have entered before and want fewer rejected submissions. You do not need to be a professional programmer. You do need patience: reading requirements carefully is half the work.
 
@@ -54,9 +50,7 @@ This guide is built as six stations. Work through them in order the first time. 
 
 **What this workshop is not.** It is not financial advice, not a shortcut to guaranteed earnings, and not an official make.fun publication. It is an independent community guide written by a participant, based on the platform's public documentation and the official competition kit. Where a statement comes from the platform itself, this guide labels it as an official fact. Where it is the author's judgement, it is labeled as a recommendation. Platform rules change; when this guide and the live bounty page disagree, the live bounty page wins.
 
-> **Join make.fun:** <https://make.fun/r/2pd6m625> — referral code `2pd6m625`.
->
-> Disclosure: this is my referral link. make.fun may reward me when eligible referred users participate. There is no promised amount and no promised income; current referral reward values are published by the platform, not by this guide.
+**Join make.fun:** <https://make.fun/r/2pd6m625> — referral code `2pd6m625`. Disclosure: this is my referral link. make.fun may reward me when eligible referred users participate. There is no promised amount and no promised income; current referral reward values are published by the platform, not by this guide.
 
 ## How to Read This Guide
 
@@ -118,7 +112,7 @@ This is Station 03. You direct the agent, it writes the code, and you review and
 
 ### What make.fun is
 
-> **Official fact:** make.fun runs coding competitions, called bounties, in which participants build software with AI agents and submit entries for grading. Each bounty lists its own prize pool, deadline, deliverables, and grading criteria. This repository was written for the bounty `bring-the-humans-02`, "Bring the humans again".
+**Official fact:** make.fun runs coding competitions, called bounties, in which participants build software with AI agents and submit entries for grading. Each bounty lists its own prize pool, deadline, deliverables, and grading criteria. This repository was written for the bounty `bring-the-humans-02`, "Bring the humans again".
 
 A bounty is not a job posting and not a lottery ticket. It is a time-boxed build with published rules. Your entry is judged against the criteria the bounty lists, not against other entries' marketing. That is good news: you are competing on the quality of a defined deliverable, and the definition is public before you start.
 
@@ -134,52 +128,36 @@ A bounty is not a job posting and not a lottery ticket. It is a time-boxed build
 
 Do not pick the biggest prize pool. Pick the bounty whose deadline, deliverables, and prerequisites fit the time and skills you actually have this week. Compare candidates side by side:
 
-| Factor | What to check | Why it matters |
-| --- | --- | --- |
-| Deadline | Days left, in your own timezone | A bounty you cannot finish is a wasted entry slot |
-| Prize places | How many positions are paid, and what each pays | Only listed positions are paid; an entry outside them earns nothing |
-| Deliverables | Files, formats, and sizes required | A deliverable you cannot produce is a blocker, not a challenge |
-| Grading criteria | What the grader actually scores | Building the wrong thing well still scores badly |
-| Prerequisites | Linked accounts, wallets, tools, fees | A missing prerequisite found on day one is cheap; found at submission time, it is fatal |
-| Entry fee | Free, or a fee you must pay | A fee changes the risk calculation; never pay one you did not budget for |
-| Your fit | Have you built anything like this before? | A first bounty should teach you the process, not test your limits |
+- **Deadline** — check the days left, in your own timezone. Why it matters: a bounty you cannot finish is a wasted entry slot.
+- **Prize places** — check how many positions are paid, and what each pays. Why it matters: only listed positions are paid; an entry outside them earns nothing.
+- **Deliverables** — check the files, formats, and sizes required. Why it matters: a deliverable you cannot produce is a blocker, not a challenge.
+- **Grading criteria** — check what the grader actually scores. Why it matters: building the wrong thing well still scores badly.
+- **Prerequisites** — check the linked accounts, wallets, tools, and fees. Why it matters: a missing prerequisite found on day one is cheap; found at submission time, it is fatal.
+- **Entry fee** — check whether it is free, or a fee you must pay. Why it matters: a fee changes the risk calculation; never pay one you did not budget for.
+- **Your fit** — ask whether you have built anything like this before. Why it matters: a first bounty should teach you the process, not test your limits.
 
 ### The evaluation process
 
-```mermaid
-flowchart TD
-    A[Find a bounty] --> B[Read the full bounty page]
-    B --> C{Deadline and reward fit your week}
-    C -->|No| D[Skip it and keep looking]
-    C -->|Yes| E[Check deliverables and prerequisites]
-    E --> F{You can produce every deliverable}
-    F -->|No| D
-    F -->|Yes| G[Score it with the worksheet below]
-    G --> H{Score says it is a good fit}
-    H -->|No| D
-    H -->|Yes| I[Commit and move to Station 02]
-```
+Find a bounty and read the full bounty page. Check whether the deadline and reward fit your week; if not, skip it and keep looking. If they fit, check the deliverables and prerequisites. If you cannot produce every deliverable, skip it. If you can, score it with the worksheet below. If the score says it is a good fit, commit and move to Station 02.
 
 ### Opportunity evaluation worksheet
 
-Copy this table, fill one row per candidate bounty, then compare them side by side and pick the best honest fit, not the highest prize. Use the Bounty Readiness Scorecard for the numeric check.
+Copy this list, fill one answer per candidate bounty, then compare them side by side and pick the best honest fit, not the highest prize. Use the Bounty Readiness Scorecard for the numeric check.
 
-| Question | Your answer |
-| --- | --- |
-| Bounty name and link | |
-| Entries close on (date and time, your timezone) | |
-| Days you can actually work on it | |
-| Prize pool and number of paid positions | |
-| Deliverables required | |
-| Grading criteria, in your own words | |
-| Prerequisites you already meet | |
-| Prerequisites you still need | |
-| Entry fee, if any | |
-| Similar things you have built before | |
-| Biggest risk to finishing on time | |
-| Decision: pursue, watch, or skip | |
+- Bounty name and link:
+- Entries close on (date and time, your timezone):
+- Days you can actually work on it:
+- Prize pool and number of paid positions:
+- Deliverables required:
+- Grading criteria, in your own words:
+- Prerequisites you already meet:
+- Prerequisites you still need:
+- Entry fee, if any:
+- Similar things you have built before:
+- Biggest risk to finishing on time:
+- Decision: pursue, watch, or skip:
 
-> **Our recommendation:** for a first bounty, choose the smallest deliverable you can finish in half the time available. Finishing early leaves room for the verification station, which is where most first entries are saved from rejection. A large bounty finished late is worse than a small bounty submitted cleanly.
+**Our recommendation:** for a first bounty, choose the smallest deliverable you can finish in half the time available. Finishing early leaves room for the verification station, which is where most first entries are saved from rejection. A large bounty finished late is worse than a small bounty submitted cleanly.
 
 Before you move on, run the [Bounty Readiness Scorecard](#bounty-readiness-scorecard). If your score says you are not ready, fix the gap first. It is cheaper than discovering it at submission time.
 
@@ -189,7 +167,7 @@ Before you move on, run the [Bounty Readiness Scorecard](#bounty-readiness-score
 
 ### Read the bounty page like a contract
 
-> **Official fact:** for `bring-the-humans-02`, the required deliverables are a public repository URL owned by the GitHub account linked to your make.fun account, a full 40-character commit SHA, a transcript bundle produced by the official kit, an optional title of at most 200 characters, and a signed entry message with an entry signature. The signature must be made within 10 minutes of submission, using Ed25519, by a wallet on your account.
+**Official fact:** for `bring-the-humans-02`, the required deliverables are a public repository URL owned by the GitHub account linked to your make.fun account, a full 40-character commit SHA, a transcript bundle produced by the official kit, an optional title of at most 200 characters, and a signed entry message with an entry signature. The signature must be made within 10 minutes of submission, using Ed25519, by a wallet on your account.
 
 That paragraph is the whole submission. Everything else on the bounty page tells you what the repository must contain and how it will be graded. Read it twice: once for the shape of the deliverable, once for the details you will miss the first time.
 
@@ -203,20 +181,19 @@ That paragraph is the whole submission. Everything else on the bounty page tells
 
 ### Requirement-analysis template
 
-Fill one row per requirement. If a row has no answer, you have not finished reading.
+For each requirement, write down these four things. If a row has no answer, you have not finished reading.
 
-| Requirement | Type | What it means in practice | Done |
-| --- | --- | --- | --- |
-| | Deliverable / File / Rule / Prerequisite | | |
-| | Deliverable / File / Rule / Prerequisite | | |
-| | Deliverable / File / Rule / Prerequisite | | |
-| | Deliverable / File / Rule / Prerequisite | | |
+- **Requirement** — what it is, and its type: Deliverable, File, Rule, or Prerequisite.
+- **What it means in practice** — what you must actually do or produce.
+- **Done** — yes or no, honestly.
+
+Fill one set per requirement until every requirement on the bounty page has an answer.
 
 ### From requirements to a task plan
 
 Group the requirements into build tasks of one clear outcome each. A task should be small enough that you can describe its done-state in one sentence: "the README explains all six stations", not "write the guide". Order the tasks so that the riskiest or least familiar one comes first, while you still have time to recover. Write the plan down before opening your agent. A plan you can point at is the difference between directing an agent and watching one wander.
 
-> **General advice:** if two requirements conflict, or a requirement is genuinely unclear, stop and re-read the bounty page and the kit documentation. Do not guess and build. A question answered late costs a rebuild; a question answered early costs a minute.
+**General advice:** if two requirements conflict, or a requirement is genuinely unclear, stop and re-read the bounty page and the kit documentation. Do not guess and build. A question answered late costs a rebuild; a question answered early costs a minute.
 
 ## Station 03 BUILD
 
@@ -239,22 +216,7 @@ Write the brief yourself, in your own words, before the agent starts. If you can
 
 Feed the agent one task at a time, in the order from your Station 02 plan. After each task, review the result before starting the next one. This is slower per task and much faster per project, because errors are caught while they are still small and local.
 
-```mermaid
-flowchart TD
-    A[Write a clear brief] --> B[Break the work into tasks]
-    B --> C[Agent builds one task]
-    C --> D[Review the generated code]
-    D --> E{Does it do what the brief asked}
-    E -->|No| F[Point out the exact problem]
-    F --> C
-    E -->|Yes| G[Test the feature yourself]
-    G --> H{Does it work in real use}
-    H -->|No| F
-    H -->|Yes| I[Move to the next task]
-    I --> J{All tasks done}
-    J -->|No| B
-    J -->|Yes| K[Go to Station 04]
-```
+The build loop is: write a clear brief, break the work into tasks, let the agent build one task, review the generated code, and check whether it does what the brief asked. If not, point out the exact problem and let the agent try again. If yes, test the feature yourself. If it does not work in real use, point out the exact problem and let the agent try again. If it works, move to the next task. When all tasks are done, go to Station 04.
 
 ### Review generated code like it is yours
 
@@ -265,7 +227,7 @@ It is yours. You are submitting it, so you own its bugs, its licenses, and its s
 - Placeholder content, fake data, or hardcoded values presented as real.
 - Dependencies you do not recognise. Look each one up before you keep it.
 
-> **General advice:** if you cannot explain what a generated file does, do not submit it yet. Ask the agent to explain it, or remove it. "The agent wrote it" is not a defence in a review, and it is not a defence to a grader either.
+**General advice:** if you cannot explain what a generated file does, do not submit it yet. Ask the agent to explain it, or remove it. "The agent wrote it" is not a defence in a review, and it is not a defence to a grader either.
 
 ### Improve weak results instead of restarting
 
@@ -319,23 +281,29 @@ Verification is where good builds become valid submissions. A rejection that nam
 
 ### Pre-submission audit worksheet
 
-Check every row. Any row you cannot check honestly is a reason to stop and fix it, not a reason to submit anyway.
+Check every item. Any item you cannot check honestly is a reason to stop and fix it, not a reason to submit anyway.
 
-| Check | How to confirm | Result |
-| --- | --- | --- |
-| Repository is public | Open the URL logged out | |
-| Commit SHA is the full 40 characters | Copy it from the pushed commit | |
-| Commit is on the default branch | Check the branch on GitHub | |
-| README is at the repository root | Open it at the root path | |
-| README is within the size limit | Check the file size | |
-| Required referral link or code is present | Search the README for it | |
-| screenshot.png is at the repository root | Open it at the root path | |
-| Screenshot shows the real result | Look at it with fresh eyes | |
-| LICENSE is present and OSI-approved | Read the license file | |
-| No shadowing README exists | Confirm no second README overrides the root one | |
-| Tests or build pass from clean state | Run them and record the output | |
-| Kit check passes | Run the official check, see Station 05 | |
-| Bundle contains genuine sessions | Confirm the transcripts match your real work | |
+**Repository and commit**
+
+- Repository is public — open the URL logged out.
+- Commit SHA is the full 40 characters — copy it from the pushed commit.
+- Commit is on the default branch — check the branch on GitHub.
+
+**Files**
+
+- README is at the repository root — open it at the root path.
+- README is within the size limit — check the file size.
+- Required referral link or code is present — search the README for it.
+- screenshot.png is at the repository root — open it at the root path.
+- Screenshot shows the real result — look at it with fresh eyes.
+- LICENSE is present and OSI-approved — read the license file.
+- No shadowing README exists — confirm no second README overrides the root one.
+
+**Checks**
+
+- Tests or build pass from clean state — run them and record the output.
+- Kit check passes — run the official check, see Station 05.
+- Bundle contains genuine sessions — confirm the transcripts match your real work.
 
 Also score the entry against the [Project Quality Rubric](#project-quality-rubric). If a dimension scores weak, fix it now, while fixing is still cheap.
 
@@ -343,7 +311,7 @@ Also score the entry against the [Project Quality Rubric](#project-quality-rubri
 
 **Goal:** submit a valid entry through the official workflow, then track it honestly.
 
-> **Official fact:** submissions for make.fun bounties go through the official kit CLI. The commands below come from the kit documentation for this competition. Run them from inside the unpacked kit directory.
+**Official fact:** submissions for make.fun bounties go through the official kit CLI. The commands below come from the kit documentation for this competition. Run them from inside the unpacked kit directory.
 
 ### The submission workflow
 
@@ -391,29 +359,22 @@ Keep the submission ID. Check the status until it shows accepted or rejected, an
 node cli/makefun.mjs claim --claim <claim-id> --keypair <file> --us-person <yes|no>
 ```
 
-> **Official fact:** the claim deadline is set once the result is posted. Check the bounty page after results are announced and claim inside the window.
+**Official fact:** the claim deadline is set once the result is posted. Check the bounty page after results are announced and claim inside the window.
 
-```mermaid
-flowchart TD
-    A[Finish the build] --> B[Run the kit check]
-    B --> C{Does the check pass}
-    C -->|No| D[Fix the reported problem]
-    D --> B
-    C -->|Yes| E[Bundle the transcripts]
-    E --> F[Submit with the kit CLI]
-    F --> G[Poll the entry status]
-    G --> H{Is the entry accepted}
-    H -->|No| I[Read the rejection reason]
-    I --> D
-    H -->|Yes| J[Wait for final results]
-    J --> K[Claim inside the window if you placed]
-```
+### The workflow at a glance
+
+1. Run kit checks.
+2. Bundle genuine transcripts.
+3. Submit repository, commit, and bundle.
+4. Check submission status.
+5. Wait for official scoring.
+6. Claim rewards if eligible.
 
 ### If the submission is rejected
 
 Read the rejection reason before doing anything else. Most rejections name the exact problem: a missing file, a wrong path, a signature that expired, a quota already used. Fix that problem, re-run the kit check, and submit again only if you still have quota. The [Submission Failure Library](#submission-failure-library) lists the common cases and their fixes.
 
-> **Official fact:** the entry quota for this competition is 5 submissions per day and 20 in total per account, and refused attempts count toward the daily quota. Never submit to "test" the system. Test with the kit check instead; that is what it is for.
+**Official fact:** the entry quota for this competition is 5 submissions per day and 20 in total per account, and refused attempts count toward the daily quota. Never submit to "test" the system. Test with the kit check instead; that is what it is for.
 
 ### Entry status, honestly tracked
 
@@ -433,7 +394,7 @@ One strong entry teaches you more than three rushed ones, and it costs fewer quo
 
 ### Provisional versus final rankings
 
-> **Official fact:** for this competition the final window opens when entries close, and the result is due 6 Dec 2026 16:30 UTC. Rankings shown before the final result are provisional and can change.
+**Official fact:** for this competition the final window opens when entries close, and the result is due 6 Dec 2026 16:30 UTC. Rankings shown before the final result are provisional and can change.
 
 Treat a provisional position as information, not as income. Do not spend money you have not claimed, and do not promise anyone a result that is not final.
 
@@ -449,29 +410,26 @@ Find the communities where other builders discuss these competitions, share what
 
 When a new bounty appears, go back to Station 01. Do not chase every new competition. A new bounty is only worth your time if it passes the same evaluation worksheet and scorecard as the last one. The discipline is the same every time; that is the point of a workshop.
 
-> **Our recommendation:** after each competition, take one day off building and spend it reading the top entries. Study what the strongest entries did differently: their structure, their evidence, their clarity. Then write down the three differences you can copy honestly in your next build. No guaranteed earnings come with any of this, in this competition or any other. The reward for doing the process well is a better entry, and a better entry is the only thing that can place.
+**Our recommendation:** after each competition, take one day off building and spend it reading the top entries. Study what the strongest entries did differently: their structure, their evidence, their clarity. Then write down the three differences you can copy honestly in your next build. No guaranteed earnings come with any of this, in this competition or any other. The reward for doing the process well is a better entry, and a better entry is the only thing that can place.
 
 ## Bounty Readiness Scorecard
 
-Score yourself honestly before you commit to a bounty. Give 2 points for yes, 1 for partly, 0 for no.
+Score yourself honestly before you commit to a bounty. Give 2 points for yes, 1 for partly, 0 for no. Add up your points; the maximum is 16.
 
-| # | Check | Points |
-| --- | --- | --- |
-| 1 | I have read the full bounty page, including deliverables and grading criteria | 0 / 1 / 2 |
-| 2 | The deadline leaves time for build, verify, and submit, with a day to spare | 0 / 1 / 2 |
-| 3 | I can produce every required deliverable with tools I already have | 0 / 1 / 2 |
-| 4 | My GitHub account is linked and my repository can be public | 0 / 1 / 2 |
-| 5 | I have an AI agent I can use for the whole build | 0 / 1 / 2 |
-| 6 | I have enough uninterrupted work time before the deadline | 0 / 1 / 2 |
-| 7 | I understand how the entry is scored and what "good" means here | 0 / 1 / 2 |
-| 8 | I have a plan for the submission step, including the kit and the keypair | 0 / 1 / 2 |
-| | **Total (max 16)** | **/ 16** |
+1. I have read the full bounty page, including deliverables and grading criteria.
+2. The deadline leaves time for build, verify, and submit, with a day to spare.
+3. I can produce every required deliverable with tools I already have.
+4. My GitHub account is linked and my repository can be public.
+5. I have an AI agent I can use for the whole build.
+6. I have enough uninterrupted work time before the deadline.
+7. I understand how the entry is scored and what "good" means here.
+8. I have a plan for the submission step, including the kit and the keypair.
 
-| Total | What it means |
-| --- | --- |
-| 13–16 | Ready. Commit and start Station 02. |
-| 8–12 | Ready with gaps. Fix the zero-point rows first, then commit. |
-| 0–7 | Not ready. Pick a smaller bounty or a later one, and use the time to close the gaps. |
+What your total means:
+
+- **13–16 — Ready.** Commit and start Station 02.
+- **8–12 — Ready with gaps.** Fix the zero-point rows first, then commit.
+- **0–7 — Not ready.** Pick a smaller bounty or a later one, and use the time to close the gaps.
 
 ## Agent Prompt Workbench
 
@@ -549,57 +507,124 @@ For every FAIL, give the exact fix. Do not submit anything.
 
 Common submission problems, why they happen, and the fix. If your rejection reason is not listed here, read the exact message the platform returned and fix what it names.
 
-| Problem | Why it happens | Fix |
-| --- | --- | --- |
-| README is missing the referral link or code | The guide-page check requires your own referral link or 8-character code in the root README | Add the link as `/r/<code>` or `?ref=<code>` and re-run the kit check |
-| A second README shadows the root one | A `.github/README.md` overrides the root README in the check | Remove the shadowing README and keep only the root one |
-| screenshot.png is missing or too large | The file is absent, not at the root, or over the size and pixel limits | Place a real screenshot at the root, within 8 MB and 16,000,000 pixels |
-| Bundle is missing or incomplete | The transcript bundle was not produced, or it does not contain the genuine sessions | Re-run the kit bundle step on the real sessions and submit the new file |
-| Commit SHA is wrong or not pushed | A short hash was used, or the commit exists only locally | Push the commit and submit the full 40-character SHA from the pushed commit |
-| Title is too long | The title exceeds 200 characters | Shorten it to 200 characters or fewer |
-| Signature expired or wrong wallet | More than 10 minutes passed after signing, or the signing wallet is not on the account | Sign again immediately before submitting, with a wallet on the account |
-| Quota already used | 5 submissions per day or 20 in total were already spent, including refused attempts | Wait for the next day, or stop; do not burn attempts testing |
-| LICENSE missing or not approved | No license file, or a license that is not OSI-approved, at the submitted commit | Add an OSI-approved license such as MIT and submit the new commit |
-| Repository is private or not yours | The repository is private, or it belongs to a GitHub account that is not linked | Make the repository public under the linked GitHub account |
+### README is missing the referral link or code
+
+**Why it happens:** the guide-page check requires your own referral link or 8-character code in the root README.
+
+**Fix:** add the link as `/r/<code>` or `?ref=<code>` and re-run the kit check.
+
+### A second README shadows the root one
+
+**Why it happens:** a `.github/README.md` overrides the root README in the check.
+
+**Fix:** remove the shadowing README and keep only the root one.
+
+### screenshot.png is missing or too large
+
+**Why it happens:** the file is absent, not at the root, or over the size and pixel limits.
+
+**Fix:** place a real screenshot at the root, within 8 MB and 16,000,000 pixels.
+
+### Bundle is missing or incomplete
+
+**Why it happens:** the transcript bundle was not produced, or it does not contain the genuine sessions.
+
+**Fix:** re-run the kit bundle step on the real sessions and submit the new file.
+
+### Commit SHA is wrong or not pushed
+
+**Why it happens:** a short hash was used, or the commit exists only locally.
+
+**Fix:** push the commit and submit the full 40-character SHA from the pushed commit.
+
+### Title is too long
+
+**Why it happens:** the title exceeds 200 characters.
+
+**Fix:** shorten it to 200 characters or fewer.
+
+### Signature expired or wrong wallet
+
+**Why it happens:** more than 10 minutes passed after signing, or the signing wallet is not on the account.
+
+**Fix:** sign again immediately before submitting, with a wallet on the account.
+
+### Quota already used
+
+**Why it happens:** 5 submissions per day or 20 in total were already spent, including refused attempts.
+
+**Fix:** wait for the next day, or stop; do not burn attempts testing.
+
+### LICENSE missing or not approved
+
+**Why it happens:** no license file, or a license that is not OSI-approved, at the submitted commit.
+
+**Fix:** add an OSI-approved license such as MIT and submit the new commit.
+
+### Repository is private or not yours
+
+**Why it happens:** the repository is private, or it belongs to a GitHub account that is not linked.
+
+**Fix:** make the repository public under the linked GitHub account.
 
 ## Builder Glossary
 
 Plain-language definitions for the words this guide uses. When the platform uses a word differently, the platform's meaning wins.
 
-| Term | Meaning |
-| --- | --- |
-| Bounty | A time-boxed coding competition with published rules, deliverables, and prizes |
-| Deliverable | A file or artefact the bounty requires you to produce and submit |
-| Entry | One submitted attempt at a bounty, tied to a repository, a commit, and a bundle |
-| Submission | The act of sending an entry to the platform, and the record it creates |
-| Commit SHA | The unique 40-character identifier of one commit in a Git repository |
-| Bundle | A compressed archive of the agent session transcripts that built the entry |
-| Transcript | The genuine record of one working session with an AI agent |
-| Keypair | The cryptographic key files used to sign the entry message |
-| Ed25519 | The signature scheme the platform uses for entry messages |
-| Escrow | Funds held by the platform so prizes can be paid out when results are final |
-| Leaderboard | The ranked list of entries for a bounty |
-| Provisional ranking | A ranking shown before the final result; it can still change |
-| Final ranking | The confirmed ranking that decides which entries are paid |
-| Claim | The official step that moves a won reward to the winner |
-| Referral link | A personal link that attributes new sign-ups to the person who shared it |
-| Quota | The maximum number of submissions allowed, per day and in total |
-| Grading criteria | The published rules that decide how an entry is scored |
-| Harness | The competition's technical setup: how entries are checked, graded, and ranked |
+- **Bounty** — a time-boxed coding competition with published rules, deliverables, and prizes.
+- **Deliverable** — a file or artefact the bounty requires you to produce and submit.
+- **Entry** — one submitted attempt at a bounty, tied to a repository, a commit, and a bundle.
+- **Submission** — the act of sending an entry to the platform, and the record it creates.
+- **Commit SHA** — the unique 40-character identifier of one commit in a Git repository.
+- **Bundle** — a compressed archive of the agent session transcripts that built the entry.
+- **Transcript** — the genuine record of one working session with an AI agent.
+- **Keypair** — the cryptographic key files used to sign the entry message.
+- **Ed25519** — the signature scheme the platform uses for entry messages.
+- **Escrow** — funds held by the platform so prizes can be paid out when results are final.
+- **Leaderboard** — the ranked list of entries for a bounty.
+- **Provisional ranking** — a ranking shown before the final result; it can still change.
+- **Final ranking** — the confirmed ranking that decides which entries are paid.
+- **Claim** — the official step that moves a won reward to the winner.
+- **Referral link** — a personal link that attributes new sign-ups to the person who shared it.
+- **Quota** — the maximum number of submissions allowed, per day and in total.
+- **Grading criteria** — the published rules that decide how an entry is scored.
+- **Harness** — the competition's technical setup: how entries are checked, graded, and ranked.
 
 ## Project Quality Rubric
 
 Score your entry in each dimension before you submit. A dimension that scores weak is a fix, not a footnote.
 
-| Dimension | Strong | Adequate | Weak |
-| --- | --- | --- | --- |
-| Usability | A stranger can use it in minutes with no help | Usable with the README open beside it | Confusing, broken, or unexplained |
-| Completeness | Every required deliverable exists and works | All deliverables exist; one or two are thin | A deliverable is missing or does not work |
-| Reliability | Tests or a clean build pass; no errors in normal use | Works in the tested path; untested edges | Crashes, errors, or fails to build |
-| Originality | A clear idea of your own, executed with care | Competent work on a familiar idea | Copied, generic, or assembled without thought |
-| Compliance | Meets every stated rule, file, size, and license requirement | Meets the rules with minor gaps | Breaks a stated rule or omits a requirement |
+### Usability
 
-> **Our recommendation:** an entry that is strong on compliance and completeness will beat a clever entry that fails a file check. The grader can only score what was validly submitted. Fix compliance first, then completeness, then the rest.
+- **Strong:** a stranger can use it in minutes with no help.
+- **Adequate:** usable with the README open beside it.
+- **Weak:** confusing, broken, or unexplained.
+
+### Completeness
+
+- **Strong:** every required deliverable exists and works.
+- **Adequate:** all deliverables exist; one or two are thin.
+- **Weak:** a deliverable is missing or does not work.
+
+### Reliability
+
+- **Strong:** tests or a clean build pass; no errors in normal use.
+- **Adequate:** works in the tested path; untested edges.
+- **Weak:** crashes, errors, or fails to build.
+
+### Originality
+
+- **Strong:** a clear idea of your own, executed with care.
+- **Adequate:** competent work on a familiar idea.
+- **Weak:** copied, generic, or assembled without thought.
+
+### Compliance
+
+- **Strong:** meets every stated rule, file, size, and license requirement.
+- **Adequate:** meets the rules with minor gaps.
+- **Weak:** breaks a stated rule or omits a requirement.
+
+**Our recommendation:** an entry that is strong on compliance and completeness will beat a clever entry that fails a file check. The grader can only score what was validly submitted. Fix compliance first, then completeness, then the rest.
 
 ## First Build Exercise
 
@@ -618,37 +643,33 @@ When you can do this exercise cleanly, you can do a real bounty. The workflow is
 
 ## Official Facts for This Competition
 
-> **Official fact:** the facts in this section were verified against the live competition data for `bring-the-humans-02` on 18 Nov 2026. If the live bounty page disagrees with this guide, the live page is correct.
+**Official fact:** the facts in this section were verified against the live competition data for `bring-the-humans-02` on 18 Nov 2026. If the live bounty page disagrees with this guide, the live page is correct.
 
-| Fact | Value |
-| --- | --- |
-| Competition | `bring-the-humans-02`, "Bring the humans again" |
-| Status | Open |
-| Entry fee | None (free) |
-| Entries close | Sat 21 Nov 2026 10:30 UTC (17:30 WIB) |
-| Final window starts | Sat 21 Nov 2026 10:30 UTC |
-| Result due | 6 Dec 2026 16:30 UTC |
-| Claim deadline | Set once the result is posted |
-| Entry quota | 5 per day, 20 in total per account; refused attempts count toward the day |
-| Prize pool | $1,000 USDC in total, escrow funded on Solana mainnet |
-| Scoring | Verified human signups through your referral link; tie-break is the earlier receipt |
+- **Competition** — `bring-the-humans-02`, "Bring the humans again".
+- **Status** — Open.
+- **Entry fee** — None (free).
+- **Entries close** — Sat 21 Nov 2026 10:30 UTC (17:30 WIB).
+- **Final window starts** — Sat 21 Nov 2026 10:30 UTC.
+- **Result due** — 6 Dec 2026 16:30 UTC.
+- **Claim deadline** — Set once the result is posted.
+- **Entry quota** — 5 per day, 20 in total per account; refused attempts count toward the day.
+- **Prize pool** — $1,000 USDC in total, escrow funded on Solana mainnet.
+- **Scoring** — Verified human signups through your referral link; tie-break is the earlier receipt.
 
 ### Prize table
 
-| Place | Reward |
-| --- | --- |
-| 1st | $150 |
-| 2nd | $80 |
-| 3rd | $50 |
-| 4th–10th | $20 each |
-| 11th–25th | $17 each |
-| 26th–50th | $13 each |
+- **1st place** — $150.
+- **2nd place** — $80.
+- **3rd place** — $50.
+- **4th–10th place** — $20 each.
+- **11th–25th place** — $17 each.
+- **26th–50th place** — $13 each.
 
 Only the places listed above are paid. An entry outside the paid places earns nothing, and no amount is promised to any entry before the final result.
 
 ### How referral rewards work
 
-> **Official fact:** the referral rules below come from the platform's referral documentation. Current reward values are not fixed in this guide; they must be read from the platform's referral API (`GET /api/me/referrals`), because they can change.
+**Official fact:** the referral rules below come from the platform's referral documentation. Current reward values are not fixed in this guide; they must be read from the platform's referral API (`GET /api/me/referrals`), because they can change.
 
 - The referrer earns one reward per new account created through their link, approved only when that account is clearly a real person or a real agent builder taking part. The guide states this applies to the first 20 sign-ups.
 - The referrer earns another reward once per account, the first time that account's entry is accepted and wins a reward, once it is paid.
@@ -689,12 +710,8 @@ No. It is an independent community guide written by a participant for the `bring
 
 If you have read this far, you know the process. The next step is small: pick one bounty, run the scorecard, and start Station 01.
 
-> **Join make.fun:** <https://make.fun/r/2pd6m625> — referral code `2pd6m625`.
->
-> Disclosure: this is my referral link. make.fun may reward me when eligible referred users participate. There is no promised amount and no promised income. What you build with it is entirely up to you.
+**Join make.fun:** <https://make.fun/r/2pd6m625> — referral code `2pd6m625`. Disclosure: this is my referral link. make.fun may reward me when eligible referred users participate. There is no promised amount and no promised income. What you build with it is entirely up to you.
 
 Good luck. Build something real, verify it honestly, and submit it cleanly.
-
----
 
 *THE BOUNTY WORKSHOP — an independent community guide for the make.fun bounty `bring-the-humans-02`. Licensed under the MIT License; see [LICENSE](LICENSE). Platform facts were verified against live competition data on 18 Nov 2026; always confirm deadlines, prizes, and rules on the live bounty page.*
