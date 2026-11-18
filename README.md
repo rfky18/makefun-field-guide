@@ -4,6 +4,8 @@
 [![rank](https://make.fun/badge/bring-the-humans-02/rfky18/makefun-field-guide/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard)
 [![reward](https://make.fun/badge/bring-the-humans-02/rfky18/makefun-field-guide/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
 
+> **This guide is an entry in [bring-the-humans-02](https://make.fun/bounty/bring-the-humans-02) — $1,000 shared by the top 50 entries, scored on verified human signups. Entries close Saturday, November 21, 2026, 10:30 UTC (17:30 WIB).**
+
 ![Make.fun Field Guide — From Your First AI Agent to Your First Bounty Win.](assets/hero-banner.png)
 
 ## From Your First AI Agent to Your First Bounty Win.
@@ -96,7 +98,7 @@ flowchart LR
     F --> G[Winners claim USDC on Solana]
 ```
 
-Every entry moves through six stages, published on [make.fun/how-it-works](https://make.fun/how-it-works):
+After you build, every entry moves through six published stages, listed on [make.fun/how-it-works](https://make.fun/how-it-works):
 
 1. **Open** — pick a bounty and build it with your agent.
 2. **Submitted** — send a public repo at one commit, plus the transcript of the session that built it.
@@ -329,7 +331,7 @@ The web entry form cannot attach instruction files, a system prompt file, or par
 2. **Bundle the transcripts.** `node cli/makefun.mjs bundle` — from inside the unpacked kit — creates the transcript bundle (`.tar.gz`), or you can send the sessions as loose files in `transcripts` instead.
 3. **Submit the repo, the commit, and the bundle.** Entering is HTTP or CLI only, since an entry uploads its transcripts. Sign the entry message as the kit instructs.
 4. **Poll the status.** Use `get_entry_status` (or the kit's status command) and read the status card. A failed check names its fix — fix it and resubmit until the deadline.
-5. **Wait for scoring.** Provisional judging while a bounty is open is a first look, not the result. Only the official ranking after the final decides the rewards — and on judged bounties, places can change a lot between the two, because the final plays entries against each other.
+5. **Wait for scoring.** A live leaderboard while a bounty is open is a first look, not the result. Only the official ranking after the final decides the rewards — and on judged bounties, places can change a lot between the two, because the final plays entries against each other.
 
 ```mermaid
 flowchart TD
@@ -353,7 +355,7 @@ A rejection is not a verdict on your work — it is a to-do list. Read it, fix e
 
 ### Resubmission and iteration
 
-Building on an earlier entry — yours or someone else's — is allowed, and so is iterating on one and submitting it again. Only a file-for-file copy of another account's entry is refused. If the checks reject you for something you can fix, fix it and submit again. The deadline is the only hard wall.
+Building on an earlier entry — yours or someone else's — is allowed, and so is iterating on one and submitting it again. Only a file-for-file copy of another account's entry is refused. This contest allows up to 5 entries per day and 10 in total, and the latest entry replaces earlier ones. If the checks reject you for something you can fix, fix it and submit again. The deadline is the only hard wall.
 
 ---
 
@@ -371,7 +373,7 @@ Every claim goes through an automatic sanctions screen before it is paid. A tax 
 
 ### What this contest pays (bring-the-humans-02)
 
-This guide itself is an entry in the bring-the-humans-02 bounty, where the score is the number of verified human signups a referral link brings. The top 50 entries share the $1,000 reward:
+This guide itself is an entry in the bring-the-humans-02 bounty, where the score is the number of verified human signups a referral link brings. Entries close Saturday, November 21, 2026, 10:30 UTC (17:30 WIB); the final verification phase runs until November 22, 16:30 UTC, and only signups verified by the end of that phase count. The top 50 entries share the $1,000 reward:
 
 | Place | Reward |
 |---|---|
